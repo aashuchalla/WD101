@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+        <form id="doo">
+            <div>
+                <h3 style="color:rgb(0, 0, 0);font-family:'Times New Roman', Times, serif; box-shadow: 2px 2px 2px 3px black;"><center><u>Registration Form</u></center></h3>
+            <br><br>
+            <label for="name">NAME<span style="color: red;"  >*</span></label>
+            <input required type="text" id="name" name="name" placeholder="Name of student" >
+            <br><br>
+            <label for="email">EMAIL<span style="color: red;">*</span style="color: red;" ></label>
+            <input required type="email" id="email" name="email" placeholder="example@gmail.com" >
+            <br><br>
+            <label for="password">PASSWORD<span style="color: red;">*</span></label>
+            <input  type="password" id="password" name="password" required placeholder="Password">
+            <br><br>
+            <label for="dob">DATE OF BIRTH<span style="color: red;">*</span></label>
+            <input type="date" id="dob" name="dob" required placeholder="Name of student">
+            <br><br>
+            <input type="checkbox" id="acceptTerms" name="acceptTerms">
+            <label for="acceptTerms">Accept Terms & Conditions</label>
+            <br><br>
+            <button class="button"  type="submit"><h4>SUBMIT</h4></button>
+            <br><br>
+           <div>
+            <h2 style="text-align:center; color:rgb(241, 240, 251) ;">ENTRIES</h2>
+            <div id="entries"></div>
+           </div>
+        </div>
+        </form>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
